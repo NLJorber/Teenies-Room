@@ -1,0 +1,8 @@
+body{
+   background-image: url('pinkroom.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+/* Photo by <a href="https://unsplash.com/@haiha147?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">hung dinh</a> on <a href="https://unsplash.com/photos/white-bear-plush-toy-on-white-and-pink-floral-bed-frZiQGBNClE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */

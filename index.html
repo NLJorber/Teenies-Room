@@ -7,16 +7,30 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Teenie's Room</title>
+    
+    <link rel="stylesheet" href="style.css">
   </head>
   <body class="bg-gray-100 min-h-screen">
-    <div class="container mx-auto px-4 py-8 max-w-2xl">
-      <div id="gamearea" class="bg-white rounded-lg shadow-lg p-6">
-        <h1 class="text-3xl font-bold text-center mb-6 text-gray-800">
-          The Hand People of Teenie's Room
-        </h1>
+
+
+<div class="relative h-[350px] w-full bg-cover bg-center bg-no-repeat pb-10 md:pb-16">
+
+
+  <div class="absolute top-1/4 left-10 md:left-20">
+    <div class=" text-white md:text-5xl py-4">Welcome to... </div>
+    <div class="bg-white text-7xl font-bold text-black mix-blend-screen px-10 py-5 ">Teenie's room</div>
+  </div>
+</div>
+
+
+<!-- gamebox -->
+<div class="w-full flex justify-center px-4 -mt-8 md:-mt-12 relative z-20">
+  <div id="gamearea" class="bg-white rounded-lg shadow-lg p-6 max-w-3xl w-full">
+    <h1 class="text-3xl font-bold text-center mb-6 text-rose-300">
+      Come and play!
+      </h1>
         <p>Welcome to Teenie's Room. Your name is Righthand. You are part of the Hand Family that dwells under Teenie's bed. Usually, your job is to grab sneaky Underbed monsters and turn them to dust so Teenie can sleep safely at night. Teenie has gone to preschool, but she'll be back later. You've been waiting at the edge of the Underbed for Babyhand, who has gone exploring (against your wishes) and not yet returned. You realise you're going to have to search for her and bring her back to the Underbed. Sentryhand will keep watch while you search.</p>
-        <div id="details" class="space-y-4">
+        <div id="details" class="space-y-4 mt-4">
           <div
             id="output"
             class="bg-gray-50 p-4 rounded-lg text-gray-700 h-64 overflow-y-auto whitespace-pre-line"

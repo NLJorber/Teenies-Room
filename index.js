@@ -1,5 +1,11 @@
 
 
+
+var myMusic;
+
+
+
+
 // ----------------------
 // Zone Class
 // ----------------------
@@ -246,7 +252,7 @@ Bookshelf.description = "Teenie's treasures all gathered here. The shelves are c
 const Walkingsock = new Character("Walkingsock");
 Walkingsock.description = "a grey-brown sock that used to be blue, with a hole in the toe. It smiles helpfully at you."
 Walkingsock.conversation = "Are you looking for Babyhand? I think I can help you... for a small token."
-Walkingsock.setWantedItem("gem", function() {
+Walkingsock.setWantedItem("gem", `function`() {
   playerInventory = playerInventory.filter(i => i !== "gem");
 });
 
@@ -343,8 +349,10 @@ function winCondition(reason) {
 function startGame() {
   currentZone = Underbed;
   displayZoneInfo(currentZone);
-
+  myMusic = new sound("Parentheses.mp3");
+  myMusic.play();
   const inputBox = document.getElementById("usertext");
+ 
 
 
   
